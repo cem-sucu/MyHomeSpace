@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Hubballi&family=Josefin+Sans:wght@100&family=Montserrat:wght@100&family=Nova+Round&family=Smooch+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+/* * {
+  border: 1px solid red;
+} */
+
+html {
+  width: 100%;
+  background-color: grey;
+}
+body {
+  width: 70%;
+  margin: 8rem;
+  background-color: white;
+}
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 100;
+}
+strong {
+  color: #662f32;
+  font-weight: bold;
+}
+
+h3 {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+
+.menu {
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  /* justify-content: space-evenly; */
+  font-family: "Hubballi", cursive;
+  text-transform: uppercase;
+  font-size: 6rem;
+  margin: 4rem;
+}
+
+.menu a {
+  float: left;
+  color: rgb(89, 86, 86);
+  text-align: center;
+  padding: 50px 40px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.menu a:hover {
+  background-color: #a33d42;
+  color: white;
+}
+
+.menu a.active {
+  background-color: #662f32;
+  color: white;
+}
+.slide{
+  text-align: center;  
+}
+img.slide-image{
+  width:100%;
+}
+
+.content-home {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content{
+  width: min-content;
+}
+
+.tree-image{
+  width: 18rem;
+  margin-bottom: -1.25rem;
+}
+.content-title{
+  background-color: #662f32;
+  color: white;
+  height: 3rem;
+  font-size: x-large;
+  padding-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+article p{
+  background-color:grey;
+  color: #ffffff;
+  padding-bottom: 5rem;
+
+}
+.plus{
+  display: block;
+  margin-left: auto;
+  margin-bottom: -5rem;
+  pointer-events: visible;
+}
+
+.plus:hover{
+  background-image: url("/integration/assets/img/white-button.png");
+  cursor: pointer;
+  background-position: 4rem;
+  transition: all 1s ease;
+}
+
+.plus:active{
+  background-image: url("/integration/assets/img/white-button.png");
+  background-position: 3rem;
+  
+}
+
+.article{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+
+.container{
+  width: min-content;
+  width: 18rem;
+  font-size: 1rem;
+}
+.container ul li{
+  margin: 0.5rem;
+  list-style-image: url("https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/000000/external-chevron-arrow-line-royyan-wijaya-detailed-outline-royyan-wijaya-2.png");
+
+}
+
+.container h4{
+  color: #662f32;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.container button{
+  background-color: grey;
+  height: 3rem;
+  color: white;
+  width: 8rem;
+  font-size: large;
+}
+
+button:hover{
+  background-color: #662f32;
+  cursor: pointer;
+}
+
+.footer{
+  border-top: solid grey;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  font-size: x-large;
+  color: grey;
+}
+
+.social{
+  float: right;
+  border-radius: 2rem;
+  margin-top: -7rem;
+  padding-right: 3rem;
+}
+
+.social button{
+  border-radius: 3rem;
+  background-color: grey;
+}
+.social button:hover{
+  background-color: #662f32;
+}
+
+/* .social{
+  float: right;
+} */
+
