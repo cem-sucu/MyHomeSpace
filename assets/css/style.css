@@ -15,6 +15,7 @@ body {
   background-color: white;
 }
 h1 {
+  padding-top: 5rem;
   font-size: 6rem;
   text-align: center;
   font-weight: 100;
@@ -147,6 +148,7 @@ article p{
 
 .container button{
   background-color: grey;
+  /* border-radius: 2rem; */
   height: 3rem;
   color: white;
   width: 8rem;
@@ -156,7 +158,7 @@ article p{
 button:hover{
   background-color: #662f32;
   cursor: pointer;
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 
 .footer{
